@@ -1,4 +1,4 @@
-# Aprendizagem de Máquina II | Fatec Jundiaí — 6º semestre (2026/2)
+# Aprendizagem de Máquina II | Fatec Jundiaí - 6º semestre (2026/2)
 
 Este repositório reúne os conteúdos, laboratórios e atividades desenvolvidos na disciplina de **Aprendizagem de Máquina II**, do curso de **Ciência de Dados** da **Fatec Jundiaí**, no **6º semestre de 2026**.
 
