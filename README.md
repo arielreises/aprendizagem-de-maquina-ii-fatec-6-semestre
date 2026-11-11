@@ -1,6 +1,10 @@
 # Aprendizagem de Máquina II | Fatec Jundiaí — 6º semestre (2026/2)
 
-Repositório acadêmico de **Aprendizagem de Máquina II**, disciplina do curso de **Ciência de Dados** da **Fatec Jundiaí**, cursada no 6º semestre de 2026. Organização por encontros semanais, normalmente às **quintas-feiras**.
+Este repositório reúne os conteúdos, laboratórios e atividades desenvolvidos na disciplina de **Aprendizagem de Máquina II**, do curso de **Ciência de Dados** da **Fatec Jundiaí**, no **6º semestre de 2026**.
+
+**Docente:** Ricardo Leardini Lobo  
+**Discente:** Ariel Ladislau Reises  
+**Período:** 2026/2 — aulas às quintas-feiras.
 
 ## Notebooks publicados
 
@@ -37,21 +41,12 @@ Repositório acadêmico de **Aprendizagem de Máquina II**, disciplina do curso 
 
 ## Como executar
 
-Abra o arquivo `.ipynb` no [Google Colab](https://colab.research.google.com/) ou em um Jupyter Notebook e instale as bibliotecas importadas no próprio material. Os notebooks foram publicados **sem saídas salvas de execução**, para reduzir tamanho e evitar compartilhar resultados acidentais.
+Abra o arquivo `.ipynb` no [Google Colab](https://colab.research.google.com/) ou em um Jupyter Notebook e instale as bibliotecas importadas no próprio material. Os notebooks incluem as saídas de execução disponíveis nos arquivos originais, como tabelas, métricas e gráficos.
 
-> **Estado de revisão:** a estrutura, os títulos e os trechos principais do código foram inspecionados; **não foi realizada execução integral nem validação automática de todos os notebooks**. Alguns materiais acadêmicos podem conter erros ou células incompletas e são preservados como registro de estudo.
 
-## Correções aplicadas e pontos para revisão
-
-- **13/08 (corrigido):** referência a `matriz_rotulos` substituída pela matriz efetivamente criada, `y_binarizado`. Removida também uma mensagem de depuração desnecessária.
-- **03/09 (revisado):** títulos, comentários e textos de saída padronizados, preservando os experimentos. A exibição da acurácia foi ajustada para percentual.
-- **08/10 (corrigido):** a segunda classe do gráfico agora usa a mesma máscara de classe 1 nos dois eixos.
-- **17/09:** existe também um rascunho menor da A1 no Drive; foi priorizada a versão mais completa.
-- **29/10:** mantida somente a versão comentada. A versão sem comentários tinha o mesmo código executável e foi removida para evitar duplicidade.
-- **08/10:** mantidas as duas implementações de RBF porque são diferentes: uma utiliza divisão treino/teste com `StandardScaler` e um modelo Keras mais simples; a outra implementa uma camada RBF personalizada e detalha os centros aprendidos.
 
 ## Autoria e uso
 
-Organização dos estudos: Ariel Ladislau Reises. Conteúdo acadêmico para fins educacionais e de portfólio. Referências, materiais fornecidos em aula e contribuições de colegas devem manter os devidos créditos quando aplicável.
+Notebooks e atividades acadêmicas organizados por Ariel Ladislau Reises, a partir dos conteúdos da disciplina ministrada pelo docente Ricardo Leardini Lobo. Material disponibilizado para estudo e portfólio.
 
 **Fonte dos materiais:** notebooks originais no Google Drive / Google Colab. Os arquivos de origem não foram modificados.
