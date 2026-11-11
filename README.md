@@ -4,7 +4,7 @@ Este repositório reúne os conteúdos, laboratórios e atividades desenvolvidos
 
 **Docente:** Ricardo Leardini Lobo  
 **Discente:** Ariel Ladislau Reises  
-**Período:** 2026/2 — aulas às quintas-feiras.
+**Período:** 2026/2 - aulas às quintas-feiras.
 
 ## Notebooks publicados
 
