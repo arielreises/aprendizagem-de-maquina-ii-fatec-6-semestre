@@ -1,38 +1,57 @@
-# Aprendizagem de Máquina II — Fatec Jundiaí | 6º semestre (2026/2)
+# Aprendizagem de Máquina II | Fatec Jundiaí — 6º semestre (2026/2)
 
-Repositório acadêmico da disciplina **Aprendizagem de Máquina II**, do curso de **Ciência de Dados** da **Fatec Jundiaí**, referente ao **6º semestre (segundo semestre de 2026)**.
+Repositório acadêmico de **Aprendizagem de Máquina II**, disciplina do curso de **Ciência de Dados** da **Fatec Jundiaí**, cursada no 6º semestre de 2026. Organização por encontros semanais, normalmente às **quintas-feiras**.
 
-## Organização
+## Notebooks publicados
 
-Os notebooks são agrupados por **data da aula**, geralmente às **quintas-feiras**. As datas serão conferidas com os arquivos originais do Google Colab antes da publicação. Exercícios sem data confirmada serão mantidos separados até a identificação correta.
-
-## Conteúdos
-
-- Aprendizagem supervisionada e avaliação de modelos
-- Redes neurais artificiais, regularização e treinamento
-- Redes de função de base radial (RBF), Keras e TensorFlow
-- Redes densas (MLP) e convolucionais (CNN)
-- Classificação de imagens com MNIST
-
-## Aulas identificadas
-
-| Data | Material |
+| Data de referência | Conteúdo e notebook |
 | --- | --- |
-| 13/08/2026 | Laboratório de ML |
-| 20/08/2026 | Aula 03 |
-| 03/09/2026 | Aprendizagem de Máquina II |
-| 10/09/2026 | Aprendizagem de Máquina II |
-| 17/09/2026 | Atividade prática A1 |
-| 08/10/2026 | Aprendizagem de Máquina II / RBF |
-| 29/10/2026 | Redes neurais — versão comentada e original |
-| 05/11/2026 | Redes neurais MLP e CNN / MNIST |
+| 13/08/2026 | [Classificação multirrótulo com Random Forest](aulas/2026-08-13/classificacao-multirrotulo-random-forest.ipynb) |
+| 20/08/2026 | [AdaBoost e classificação de risco](aulas/2026-08-20/adaboost-e-classificacao-de-risco.ipynb) |
+| 27/08/2026 | [Avaliação de classificadores e validação cruzada](aulas/2026-08-27/avaliacao-de-classificadores-e-validacao-cruzada.ipynb) |
+| 03/09/2026 | [Regressão logística vs. MLP em dados não lineares](aulas/2026-09-03/classificacao-nao-linear-regressao-logistica-mlp.ipynb) |
+| 03/09/2026 | [Rede RBF: implementação e comparação (adaptação da aula)](aulas/2026-09-03/rede-rbf-implementacao-e-comparacao.ipynb) |
+| 10/09/2026 | [Pipelines, GridSearchCV e comparação de modelos](aulas/2026-09-10/pipelines-gridsearch-e-comparacao-de-modelos.ipynb) |
+| 17/09/2026 | [Atividade A1: seleção de modelos no Breast Cancer Wisconsin](aulas/2026-09-17/atividade-a1-selecao-de-modelos-breast-cancer.ipynb) |
+| 08/10/2026 | [RBF e classificação de círculos concêntricos](aulas/2026-10-08/rede-rbf-classificacao-circulos-concentricos.ipynb) |
+| 08/10/2026 | [Rede RBF com Keras/TensorFlow (data de referência)](aulas/2026-10-08/rede-rbf-keras-tensorflow.ipynb) |
+| 29/10/2026 | [Overfitting, Dropout e callbacks](aulas/2026-10-29/redes-neurais-overfitting-dropout-callbacks.ipynb) |
+| 29/10/2026 | [Versão comentada: Overfitting, Dropout e callbacks](aulas/2026-10-29/redes-neurais-overfitting-dropout-callbacks-comentado.ipynb) |
+| 05/11/2026 | [Classificação MNIST: MLP vs. CNN](aulas/2026-11-05/classificacao-mnist-mlp-cnn.ipynb) |
 
-> As datas indicadas são extraídas dos nomes dos materiais; não representam confirmação de presença ou de realização de todas as atividades.
+**Total:** 12 notebooks organizados em 9 datas de referência.
 
-## Execução
+## Conteúdos e tecnologias
 
-Abra o arquivo `.ipynb` desejado no [Google Colab](https://colab.research.google.com/) ou em um ambiente Jupyter com as bibliotecas indicadas em cada notebook.
+- **Aprendizagem supervisionada:** classificação, comparação de algoritmos e métricas.
+- **Preparação e avaliação:** padronização, divisão treino/teste, validação cruzada, `Pipeline` e `GridSearchCV`.
+- **Ensembles:** Random Forest e AdaBoost.
+- **Redes neurais:** MLP, RBF, Dropout, callbacks, redes convolucionais e classificação de imagens MNIST.
+- **Bibliotecas:** Python, NumPy, pandas, Matplotlib, scikit-learn, TensorFlow/Keras; algumas aulas também utilizam Seaborn.
 
-## Autoria e finalidade
+## Convenções de organização
 
-Organização acadêmica de Ariel Reises. Materiais de terceiros, trabalhos em grupo e referências serão identificados individualmente quando aplicável. O conteúdo é disponibilizado para fins de estudo e documentação da evolução técnica ao longo da disciplina.
+- Pastas: `aulas/AAAA-MM-DD/`.
+- Arquivos: nomes descritivos em minúsculas, sem acentos, separados por hífens.
+- Datas: identificadas no título ou no próprio notebook. **O notebook RBF Keras/TensorFlow foi associado a 08/10 por proximidade temática e data de modificação, não por data expressa no título.** A versão RBF de 03/09 declara ser uma adaptação dessa aula.
+- Variantes comentadas permanecem identificadas como tais; não são tratadas como projetos distintos.
+
+## Como executar
+
+Abra o arquivo `.ipynb` no [Google Colab](https://colab.research.google.com/) ou em um Jupyter Notebook e instale as bibliotecas importadas no próprio material. Os notebooks foram publicados **sem saídas salvas de execução**, para reduzir tamanho e evitar compartilhar resultados acidentais.
+
+> **Estado de revisão:** a estrutura, os títulos e os trechos principais do código foram inspecionados; **não foi realizada execução integral nem validação automática de todos os notebooks**. Alguns materiais acadêmicos podem conter erros ou células incompletas e são preservados como registro de estudo.
+
+## Pontos conhecidos para revisão
+
+- **13/08:** o laboratório de classificação multirrótulo referencia `matriz_rotulos` antes de sua definição em uma das células; revisar antes de executar integralmente.
+- **03/09:** o notebook original de classificação não linear contém nomenclatura informal nos comentários e pode apresentar inconsistências de apresentação; o nome do arquivo foi padronizado sem reescrever seu conteúdo.
+- **08/10:** a visualização dos círculos concêntricos utiliza índices inconsistentes na segunda classe (`X_treino_scaled[y_treino == 0, 0]` em vez da máscara da classe 1); revisar o gráfico.
+- **17/09:** existe também um rascunho menor da A1 no Drive; foi priorizada a versão mais completa.
+- **29/10:** versão original e comentada preservadas para comparação.
+
+## Autoria e uso
+
+Organização dos estudos: Ariel Ladislau Reises. Conteúdo acadêmico para fins educacionais e de portfólio. Referências, materiais fornecidos em aula e contribuições de colegas devem manter os devidos créditos quando aplicável.
+
+**Fonte dos materiais:** notebooks originais no Google Drive / Google Colab. Os arquivos de origem não foram modificados.
