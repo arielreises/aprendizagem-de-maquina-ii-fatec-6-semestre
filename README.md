@@ -15,11 +15,10 @@ Repositório acadêmico de **Aprendizagem de Máquina II**, disciplina do curso 
 | 17/09/2026 | [Atividade A1: seleção de modelos no Breast Cancer Wisconsin](aulas/2026-09-17/atividade-a1-selecao-de-modelos-breast-cancer.ipynb) |
 | 08/10/2026 | [RBF e classificação de círculos concêntricos](aulas/2026-10-08/rede-rbf-classificacao-circulos-concentricos.ipynb) |
 | 08/10/2026 | [Rede RBF com Keras/TensorFlow (data de referência)](aulas/2026-10-08/rede-rbf-keras-tensorflow.ipynb) |
-| 29/10/2026 | [Overfitting, Dropout e callbacks](aulas/2026-10-29/redes-neurais-overfitting-dropout-callbacks.ipynb) |
 | 29/10/2026 | [Versão comentada: Overfitting, Dropout e callbacks](aulas/2026-10-29/redes-neurais-overfitting-dropout-callbacks-comentado.ipynb) |
 | 05/11/2026 | [Classificação MNIST: MLP vs. CNN](aulas/2026-11-05/classificacao-mnist-mlp-cnn.ipynb) |
 
-**Total:** 12 notebooks organizados em 9 datas de referência.
+**Total:** 11 notebooks organizados em 9 datas de referência.
 
 ## Conteúdos e tecnologias
 
@@ -34,7 +33,7 @@ Repositório acadêmico de **Aprendizagem de Máquina II**, disciplina do curso 
 - Pastas: `aulas/AAAA-MM-DD/`.
 - Arquivos: nomes descritivos em minúsculas, sem acentos, separados por hífens.
 - Datas: identificadas no título ou no próprio notebook. **O notebook RBF Keras/TensorFlow foi associado a 08/10 por proximidade temática e data de modificação, não por data expressa no título.** A versão RBF de 03/09 declara ser uma adaptação dessa aula.
-- Variantes comentadas permanecem identificadas como tais; não são tratadas como projetos distintos.
+- Quando duas versões têm o mesmo código executável, fica a mais completa. Implementações diferentes permanecem separadas.
 
 ## Como executar
 
@@ -48,7 +47,8 @@ Abra o arquivo `.ipynb` no [Google Colab](https://colab.research.google.com/) ou
 - **03/09 (revisado):** títulos, comentários e textos de saída padronizados, preservando os experimentos. A exibição da acurácia foi ajustada para percentual.
 - **08/10 (corrigido):** a segunda classe do gráfico agora usa a mesma máscara de classe 1 nos dois eixos.
 - **17/09:** existe também um rascunho menor da A1 no Drive; foi priorizada a versão mais completa.
-- **29/10:** versão original e comentada preservadas para comparação.
+- **29/10:** mantida somente a versão comentada. A versão sem comentários tinha o mesmo código executável e foi removida para evitar duplicidade.
+- **08/10:** mantidas as duas implementações de RBF porque são diferentes: uma utiliza divisão treino/teste com `StandardScaler` e um modelo Keras mais simples; a outra implementa uma camada RBF personalizada e detalha os centros aprendidos.
 
 ## Autoria e uso
 
