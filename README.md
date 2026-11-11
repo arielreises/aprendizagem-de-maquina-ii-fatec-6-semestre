@@ -48,5 +48,3 @@ Abra o arquivo `.ipynb` no [Google Colab](https://colab.research.google.com/) ou
 ## Autoria e uso
 
 Notebooks e atividades acadêmicas organizados por Ariel Ladislau Reises, a partir dos conteúdos da disciplina ministrada pelo docente Ricardo Leardini Lobo. Material disponibilizado para estudo e portfólio.
-
-**Fonte dos materiais:** notebooks originais no Google Drive / Google Colab. Os arquivos de origem não foram modificados.
