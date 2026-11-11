@@ -42,11 +42,11 @@ Abra o arquivo `.ipynb` no [Google Colab](https://colab.research.google.com/) ou
 
 > **Estado de revisão:** a estrutura, os títulos e os trechos principais do código foram inspecionados; **não foi realizada execução integral nem validação automática de todos os notebooks**. Alguns materiais acadêmicos podem conter erros ou células incompletas e são preservados como registro de estudo.
 
-## Pontos conhecidos para revisão
+## Correções aplicadas e pontos para revisão
 
-- **13/08:** o laboratório de classificação multirrótulo referencia `matriz_rotulos` antes de sua definição em uma das células; revisar antes de executar integralmente.
-- **03/09:** o notebook original de classificação não linear contém nomenclatura informal nos comentários e pode apresentar inconsistências de apresentação; o nome do arquivo foi padronizado sem reescrever seu conteúdo.
-- **08/10:** a visualização dos círculos concêntricos utiliza índices inconsistentes na segunda classe (`X_treino_scaled[y_treino == 0, 0]` em vez da máscara da classe 1); revisar o gráfico.
+- **13/08 (corrigido):** referência a `matriz_rotulos` substituída pela matriz efetivamente criada, `y_binarizado`. Removida também uma mensagem de depuração desnecessária.
+- **03/09 (revisado):** títulos, comentários e textos de saída padronizados, preservando os experimentos. A exibição da acurácia foi ajustada para percentual.
+- **08/10 (corrigido):** a segunda classe do gráfico agora usa a mesma máscara de classe 1 nos dois eixos.
 - **17/09:** existe também um rascunho menor da A1 no Drive; foi priorizada a versão mais completa.
 - **29/10:** versão original e comentada preservadas para comparação.
 
